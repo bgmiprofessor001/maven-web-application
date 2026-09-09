@@ -4,16 +4,16 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>MithunTechnologies- Home Page</title>
+<title>Rahul Rand Technologies- Home Page</title>
 <link href="images/mithunlogo.jpg" rel="icon">
 </head>
 </head>
 <body>
-<h1 align="center">Welcome to Mithun Technologies</h1>
+<h1 align="center">Welcome to Rahul Rand Technologies</h1>
 <h1 align="center">Phone Number: +91 9980923216</h1>
-<h1 align="center">Mithun Technologies is a Very Good Training Center for Learning AWS DevOps, Jenkins, Docker, Kubernetes, GitOps, ArgoCD, Terraform and Amazon Web Services</h1>
+<h1 align="center">Rahul Rand Technologies is a Very Good Training Center for Learning AWS DevOps, Jenkins, Docker, Kubernetes, GitOps, ArgoCD, Terraform and Amazon Web Services</h1>
 
-<h1 align="center">Trainer Name: Bhaskar Reddy Lacchannagari</h1>
+<h1 align="center">Trainer Name: Rahul Adiya Budde</h1>
 
 <hr>
 <br>
