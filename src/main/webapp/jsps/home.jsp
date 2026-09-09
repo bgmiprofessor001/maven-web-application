@@ -13,7 +13,7 @@
 <h1 align="center">Phone Number: +91 9980923216</h1>
 <h1 align="center">Rahul Rand Technologies is a Very Good Training Center for Learning AWS DevOps, Jenkins, Docker, Kubernetes, GitOps, ArgoCD, Terraform and Amazon Web Services</h1>
 
-<h1 align="center">Trainer Name: Rahul Adiya Budde</h1>
+<h1 align="center">Trainer Name: Rahul Aditya Kulal</h1>
 
 <hr>
 <br>
