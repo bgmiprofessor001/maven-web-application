@@ -1,0 +1,31 @@
+node{
+
+	def mavenHome = tool name: "maven3.8.5"
+
+	stage('CheckoutCode'){
+	git branch: 'development', credentialsId: '3e07ba1c-57bf-447c-b938-c48521ef7b36', url: 	'https://github.com/bgmiprofessor001/maven-web-application.git'
+	}
+	
+	stage('Build'){
+	sh "$mavenHome/bin/mvn clean package"
+	}
+
+	stage('SonarQubeReport'){
+	sh "$mavenHome/bin/mvn org.sonarsource.scanner.maven:sonar-maven-plugin:sonar"
+	
+	}
+	
+	stage('NexuxArtifact'){
+	sh "$mavenHome/bin/mvn deploy"
+	}
+	
+	
+	stage('DeployOnTomcat'){
+	sshagent(credentials: ['90638b43-c90f-4301-871d-2901fc69685f'], executable: '') {
+	sh "scp -o StrictHostKeyChecking=no target/maven-web-application.war ec2-user@13.126.193.130:/opt/apache-tomcat-9.0.121/webapps"
+	}
+	}
+
+
+}//Node Closing
+
